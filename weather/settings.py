@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['18.184.73.254']
 
-
+#mousa
 # Application definition
 
 INSTALLED_APPS = [
