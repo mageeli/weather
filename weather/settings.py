@@ -25,9 +25,9 @@ SECRET_KEY = 'u=c99_o5pz8oj&0m73ib)#jw&)vao!^h*8qd)!5ovtqnnkkt1#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.184.73.254']
+ALLOWED_HOSTS = []
 
-#mousa
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -75,8 +75,8 @@ WSGI_APPLICATION = 'weather.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': os.path.join(BASE_DIR, 'db.mysql'),
     }
 }
 
